@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: qag-pegasus
+Version: 1.0.0
+Summary: Question Answer Generation
+Home-page: UNKNOWN
+Author: Nguyen Xuan Loc
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Provides-Extra: dev
+Provides-Extra: test
+
+UNKNOWN
+
