@@ -62,8 +62,8 @@ def main():
     # model.push_to_hub("QAG_Pegasus", use_auth_token=True)
 
     # save model and tokenizer
-    model.save_pretrained(training_args.output_dir)
-    tokenizer.save_pretrained(training_args.output_dir)
+    model.push_to_hub(training_args.output_dir)
+    tokenizer.push_to_hub(training_args.output_dir)
 
     return trainer
 
