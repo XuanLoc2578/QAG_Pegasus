@@ -54,7 +54,7 @@ def main():
         model=model,
         args=training_args,
         train_dataset=data_module.train_dataset,
-        
+        eval_dataset=data_module.val_dataset,
         tokenizer=tokenizer
     )
     trainer.train()
